@@ -1,0 +1,38 @@
+# C++ 编译输出
+*.exe
+*.ilk
+*.obj
+*.pdb
+*.o
+*.out
+*.dll
+*.lib
+*.a
+*.so
+
+# 构建目录
+build/
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# IDE 文件
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+
+# 其他
+.DS_Store
+Thumbs.db
+*.log
+suffix.md
+
+# 作业提交
+*.zip
+**/IAI2025*/实验*/
