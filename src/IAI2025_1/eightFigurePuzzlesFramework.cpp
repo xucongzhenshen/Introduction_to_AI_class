@@ -5,30 +5,38 @@
 #include <queue>
 #include <stack>
 #include <vector>
+#include <fstream>
+#include <sstream>
+#include <string>
 #include "eightFigurePuzzles.h"
+// 首先安装：https://github.com/p-ranav/indicators
+
+#include "../../indicators/include/indicators/progress_bar.hpp"
+#include "../../indicators/include/indicators/cursor_control.hpp"
 using namespace std;
 
-//用于记录当前状态是否被访问过
-map<int, int> visited;
-
-//深度有限搜索，用于限制深度
+// 深度有限搜索，用于限制深度
 #define MAX_DEPTH 20
 
-//广度优先搜索
-int* binaryFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
-    //result[0] 1:correct;0:wrong
-    //result[1] 步数 steps
-    int* result = new int[2]{0, 0};
+// 广度优先搜索
+std::vector<int> binaryFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode)
+{
+    // result[0] 1:correct;0:wrong
+    // result[1] 步数 steps
+    std::vector<int> result = {0, 0};
+    map<int, int> visited;
 
     /*
-		请在该位置完成广度优先搜索函数
-	*/
+        请在该位置完成广度优先搜索函数
+    */
+    /*
     cout << "初始节点状态：" << endl;
     for (int i = 0; i < 3; i++)
     {
         cout << " " << initialNode.puzzle[i * 3 + 0].puzzleId << "  " << initialNode.puzzle[i * 3 + 1].puzzleId << "  " << initialNode.puzzle[i * 3 + 2].puzzleId << endl;
     }
     cout << endl;
+    */
 
     PUZZLE_NODE puzzleNode = initialNode;
     queue<PUZZLE_NODE> puzzleNodeQueue;
@@ -39,6 +47,7 @@ int* binaryFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
         PUZZLE_NODE currentPuzzleNode = puzzleNodeQueue.front();
         if (checkObject(currentPuzzleNode, objPuzzleNode))
         {
+            /*
             for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++)
             {
                 outputAction(currentPuzzleNode.precedeActionList[i], i + 1);
@@ -49,6 +58,7 @@ int* binaryFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
                 cout << " " << currentPuzzleNode.puzzle[i * 3 + 0].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 1].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 2].puzzleId << endl;
             }
             cout << endl;
+            */
             result[0] = 1;
             result[1] = currentPuzzleNode.depth;
             return result;
@@ -82,23 +92,27 @@ int* binaryFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
         }
     }
 
-    return result;
+    return std::move(result);
 }
 
-//深度有限搜索
-int* depthFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
-    //result[0] 1:correct;0:wrong
-    //result[1] 步数 steps
-    int* result = new int[2]{0, 0};
+// 深度有限搜索
+std::vector<int> depthFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode)
+{
+    // result[0] 1:correct;0:wrong
+    // result[1] 步数 steps
+    std::vector<int> result = {0, 0};
+    map<int, int> visited;
     /*
-		请在该位置完成深度有限搜索，最大深度限度为25
-	*/
+        请在该位置完成深度有限搜索，最大深度限度为25
+    */
+    /*
     cout << "初始节点状态：" << endl;
     for (int i = 0; i < 3; i++)
     {
         cout << " " << initialNode.puzzle[i * 3 + 0].puzzleId << "  " << initialNode.puzzle[i * 3 + 1].puzzleId << "  " << initialNode.puzzle[i * 3 + 2].puzzleId << endl;
     }
     cout << endl;
+    */
 
     PUZZLE_NODE puzzleNode = initialNode;
     stack<PUZZLE_NODE> puzzleNodeStack;
@@ -109,6 +123,7 @@ int* depthFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
         PUZZLE_NODE currentPuzzleNode = puzzleNodeStack.top();
         if (checkObject(currentPuzzleNode, objPuzzleNode) || currentPuzzleNode.depth >= MAX_DEPTH)
         {
+            /*
             for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++)
             {
                 outputAction(currentPuzzleNode.precedeActionList[i], i + 1);
@@ -118,9 +133,10 @@ int* depthFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
             {
                 cout << " " << currentPuzzleNode.puzzle[i * 3 + 0].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 1].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 2].puzzleId << endl;
             }
+            */
             result[0] = 1;
             result[1] = currentPuzzleNode.depth;
-            return result;
+            return std::move(result);
         }
         else
         {
@@ -151,16 +167,19 @@ int* depthFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
         }
     }
 
-    if (checkObject(initialNode, objPuzzleNode) && initialNode.depth < MAX_DEPTH) {
+    if (checkObject(initialNode, objPuzzleNode) && initialNode.depth < MAX_DEPTH)
+    {
         result[0] = 1;
-    } else {
+    }
+    else
+    {
         result[0] = 0;
     }
 
-    return result;
+    return std::move(result);
 }
 
-//计算不正确位置的数码个数
+// 计算不正确位置的数码个数
 int IncorrectNum(PUZZLE_NODE currentNode, PUZZLE_NODE objNode)
 {
     int incorrectNum = 0;
@@ -174,24 +193,26 @@ int IncorrectNum(PUZZLE_NODE currentNode, PUZZLE_NODE objNode)
     return incorrectNum;
 }
 
-//启发式搜索1
-int *heuristicSearchInformedByIncorrectNum(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode)
+// 启发式搜索1
+std::vector<int> heuristicSearchInformedByIncorrectNum(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode)
 {
-    //result[0] 1:correct;0:wrong
-    //result[1] 步数 steps
-    int* result = new int[2]{0, 0};
+    // result[0] 1:correct;0:wrong
+    // result[1] 步数 steps
+    std::vector<int> result = {0, 0};
 
     /*
-		请在该位置完成启发式搜索，启发式函数使用不正确位置的数码个数
-	*/
+        请在该位置完成启发式搜索，启发式函数使用不正确位置的数码个数
+    */
+    /*
     cout << "初始节点状态：" << endl;
     for (int i = 0; i < 3; i++)
     {
         cout << " " << initialNode.puzzle[i * 3 + 0].puzzleId << "  " << initialNode.puzzle[i * 3 + 1].puzzleId << "  " << initialNode.puzzle[i * 3 + 2].puzzleId << endl;
     }
     cout << endl;
+    */
 
-    map<int, int> visited;         // 记录状态和对应的g值
+    map<int, int> visited; // 记录状态和对应的g值
     // 创建比较器实例，传入目标节点和启发式函数
     auto InN = [objPuzzleNode](PUZZLE_NODE a, PUZZLE_NODE b)
     { return IncorrectNum(a, objPuzzleNode) + a.depth > IncorrectNum(b, objPuzzleNode) + b.depth; };
@@ -203,11 +224,14 @@ int *heuristicSearchInformedByIncorrectNum(PUZZLE_NODE initialNode, PUZZLE_NODE 
     puzzleNode.depth = 0;
     openList.push(puzzleNode);
 
-    while (!openList.empty()) {
+    while (!openList.empty())
+    {
         PUZZLE_NODE currentPuzzleNode = openList.top();
         openList.pop();
 
-        if (checkObject(currentPuzzleNode, objPuzzleNode)) {
+        if (checkObject(currentPuzzleNode, objPuzzleNode))
+        {
+            /*
             for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++) {
                 outputAction(currentPuzzleNode.precedeActionList[i], i + 1);
             }
@@ -216,22 +240,30 @@ int *heuristicSearchInformedByIncorrectNum(PUZZLE_NODE initialNode, PUZZLE_NODE 
                 cout << " " << currentPuzzleNode.puzzle[i * 3 + 0].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 1].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 2].puzzleId << endl;
             }
             cout << endl;
+                */
 
             result[0] = 1;
             result[1] = currentPuzzleNode.depth;
-            return result;
-        } else {
+            return std::move(result);
+        }
+        else
+        {
             visited[visitedNum(currentPuzzleNode)] = 1;
-            if (currentPuzzleNode.nextActionList.size() == 0) {
+            if (currentPuzzleNode.nextActionList.size() == 0)
+            {
                 currentPuzzleNode = updatePuzzleNodeActionList(currentPuzzleNode);
             }
-            for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++) {
+            for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++)
+            {
                 PUZZLE_NODE nextPuzzleNode = moveToPuzzleNode(currentPuzzleNode.nextActionList[i], currentPuzzleNode);
-                if (visited[visitedNum(nextPuzzleNode)] == 1) {
+                if (visited[visitedNum(nextPuzzleNode)] == 1)
+                {
                     continue;
                 }
-                if (!currentPuzzleNode.precedeActionList.empty()) {
-                    for (int actionIndex = 0; actionIndex < currentPuzzleNode.precedeActionList.size(); actionIndex++) {
+                if (!currentPuzzleNode.precedeActionList.empty())
+                {
+                    for (int actionIndex = 0; actionIndex < currentPuzzleNode.precedeActionList.size(); actionIndex++)
+                    {
                         nextPuzzleNode.precedeActionList.push_back(currentPuzzleNode.precedeActionList[actionIndex]);
                     }
                 }
@@ -242,13 +274,16 @@ int *heuristicSearchInformedByIncorrectNum(PUZZLE_NODE initialNode, PUZZLE_NODE 
         }
     }
 
-    if (checkObject(initialNode, objPuzzleNode)) {
+    if (checkObject(initialNode, objPuzzleNode))
+    {
         result[0] = 1;
-    } else {
+    }
+    else
+    {
         result[0] = 0;
     }
 
-    return result;
+    return std::move(result);
 }
 
 // 计算曼哈顿距离
@@ -267,22 +302,25 @@ int ManhattonDis(PUZZLE_NODE currentNode, PUZZLE_NODE objNode)
     return manhattonDis;
 }
 
-//启发式搜索2
-int* heuristicSearchInformedByManhattonDis(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
-    //result[0] 1:correct;0:wrong
-    //result[1] 步数 steps
-    int* result = new int[2]{0, 0};
+// 启发式搜索2
+std::vector<int> heuristicSearchInformedByManhattonDis(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode)
+{
+    // result[0] 1:correct;0:wrong
+    // result[1] 步数 steps
+    std::vector<int> result = {0, 0};
     /*
-		请在该位置完成启发式搜索，启发式函数采用到目标位置的曼哈顿距离
-	*/
+        请在该位置完成启发式搜索，启发式函数采用到目标位置的曼哈顿距离
+    */
+    /*
     cout << "初始节点状态：" << endl;
     for (int i = 0; i < 3; i++)
     {
         cout << " " << initialNode.puzzle[i * 3 + 0].puzzleId << "  " << initialNode.puzzle[i * 3 + 1].puzzleId << "  " << initialNode.puzzle[i * 3 + 2].puzzleId << endl;
     }
     cout << endl;
+    */
 
-    map<int, int> visited;         // 记录状态和对应的g值
+    map<int, int> visited; // 记录状态和对应的g值
     // 创建比较器实例，传入目标节点和启发式函数
     auto MhD = [objPuzzleNode](PUZZLE_NODE a, PUZZLE_NODE b)
     { return ManhattonDis(a, objPuzzleNode) + a.depth > ManhattonDis(b, objPuzzleNode) + b.depth; };
@@ -293,11 +331,14 @@ int* heuristicSearchInformedByManhattonDis(PUZZLE_NODE initialNode, PUZZLE_NODE 
     PUZZLE_NODE puzzleNode = initialNode;
     puzzleNode.depth = 0;
     openList.push(puzzleNode);
-    while (!openList.empty()) {
+    while (!openList.empty())
+    {
         PUZZLE_NODE currentPuzzleNode = openList.top();
         openList.pop();
 
-        if (checkObject(currentPuzzleNode, objPuzzleNode)) {
+        if (checkObject(currentPuzzleNode, objPuzzleNode))
+        {
+            /*
             for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++) {
                 outputAction(currentPuzzleNode.precedeActionList[i], i + 1);
             }
@@ -306,23 +347,29 @@ int* heuristicSearchInformedByManhattonDis(PUZZLE_NODE initialNode, PUZZLE_NODE 
                 cout << " " << currentPuzzleNode.puzzle[i * 3 + 0].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 1].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 2].puzzleId << endl;
             }
             cout << endl;
-
+            */
             result[0] = 1;
             result[1] = currentPuzzleNode.depth;
-            return result;
-        } else {
+            return std::move(result);
+        }
+        else
+        {
             visited[visitedNum(currentPuzzleNode)] = 1;
             if (currentPuzzleNode.nextActionList.size() == 0)
             {
                 currentPuzzleNode = updatePuzzleNodeActionList(currentPuzzleNode);
             }
-            for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++) {
+            for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++)
+            {
                 PUZZLE_NODE nextPuzzleNode = moveToPuzzleNode(currentPuzzleNode.nextActionList[i], currentPuzzleNode);
-                if (visited[visitedNum(nextPuzzleNode)] == 1) {
+                if (visited[visitedNum(nextPuzzleNode)] == 1)
+                {
                     continue;
                 }
-                if (!currentPuzzleNode.precedeActionList.empty()) {
-                    for (int actionIndex = 0; actionIndex < currentPuzzleNode.precedeActionList.size(); actionIndex++) {
+                if (!currentPuzzleNode.precedeActionList.empty())
+                {
+                    for (int actionIndex = 0; actionIndex < currentPuzzleNode.precedeActionList.size(); actionIndex++)
+                    {
                         nextPuzzleNode.precedeActionList.push_back(currentPuzzleNode.precedeActionList[actionIndex]);
                     }
                 }
@@ -333,42 +380,52 @@ int* heuristicSearchInformedByManhattonDis(PUZZLE_NODE initialNode, PUZZLE_NODE 
         }
     }
 
-    if (checkObject(initialNode, objPuzzleNode)) {
+    if (checkObject(initialNode, objPuzzleNode))
+    {
         result[0] = 1;
-    } else {
+    }
+    else
+    {
         result[0] = 0;
     }
 
-    return result;
+    return std::move(result);
 }
 
-//广度优先搜索
-int* binaryFirstSearchDemo(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
-    //result[0] 1:correct;0:wrong
-    //result[1] 步数 steps
-    int* result = new int[2]{0, 0};
+// 广度优先搜索
+std::vector<int> binaryFirstSearchDemo(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode)
+{
+    // result[0] 1:correct;0:wrong
+    // result[1] 步数 steps
+    std::vector<int> result = {0, 0};
+    map<int, int> visited;
 
     cout << "初始节点状态：" << endl;
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 3; i++)
+    {
         cout << " " << initialNode.puzzle[i * 3 + 0].puzzleId << "  " << initialNode.puzzle[i * 3 + 1].puzzleId << "  " << initialNode.puzzle[i * 3 + 2].puzzleId << endl;
     }
     cout << endl;
     /*
-		请在该位置完成广度优先搜索函数
-	*/
+        请在该位置完成广度优先搜索函数
+    */
     PUZZLE_NODE puzzleNode = initialNode;
     queue<PUZZLE_NODE> puzzleNodeQueue;
     puzzleNode.depth = 0;
     int depth = 0;
     puzzleNodeQueue.push(puzzleNode);
-    while (puzzleNodeQueue.size()) {
+    while (puzzleNodeQueue.size())
+    {
         PUZZLE_NODE currentPuzzleNode = puzzleNodeQueue.front();
-        if (checkObject(currentPuzzleNode, objPuzzleNode)) {
-            for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++) {
+        if (checkObject(currentPuzzleNode, objPuzzleNode))
+        {
+            for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++)
+            {
                 outputAction(currentPuzzleNode.precedeActionList[i], i + 1);
             }
             cout << "找到正确结果:" << endl;
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 3; i++)
+            {
                 cout << " " << currentPuzzleNode.puzzle[i * 3 + 0].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 1].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 2].puzzleId << endl;
             }
             cout << endl;
@@ -376,21 +433,28 @@ int* binaryFirstSearchDemo(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
             result[0] = 1;
             result[1] = currentPuzzleNode.depth;
             return result;
-        } else {
+        }
+        else
+        {
             visited[visitedNum(currentPuzzleNode)] = 1;
-            if (currentPuzzleNode.nextActionList.size() == 0) {
+            if (currentPuzzleNode.nextActionList.size() == 0)
+            {
                 currentPuzzleNode = updatePuzzleNodeActionList(currentPuzzleNode);
             }
             puzzleNodeQueue.pop();
-            for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++) {
+            for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++)
+            {
                 PUZZLE_NODE nextPuzzleNode = moveToPuzzleNode(currentPuzzleNode.nextActionList[i], currentPuzzleNode);
-                if (!currentPuzzleNode.precedeActionList.empty()) {
-                    for (int actionIndex = 0; actionIndex < currentPuzzleNode.precedeActionList.size(); actionIndex++) {
+                if (!currentPuzzleNode.precedeActionList.empty())
+                {
+                    for (int actionIndex = 0; actionIndex < currentPuzzleNode.precedeActionList.size(); actionIndex++)
+                    {
                         nextPuzzleNode.precedeActionList.push_back(currentPuzzleNode.precedeActionList[actionIndex]);
                     }
                 }
                 nextPuzzleNode.precedeActionList.push_back(currentPuzzleNode.nextActionList[i]);
-                if (visited[visitedNum(nextPuzzleNode)] == 1) {
+                if (visited[visitedNum(nextPuzzleNode)] == 1)
+                {
                     continue;
                 }
                 nextPuzzleNode.depth = currentPuzzleNode.depth + 1;
@@ -401,6 +465,7 @@ int* binaryFirstSearchDemo(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode) {
     return result;
 }
 
+/*
 int main() {
     PUZZLE_NODE objPuzzleNode;
     for (int i = 0; i < 3; i++) {
@@ -448,11 +513,147 @@ int main() {
 
         if (result[0] == 1) {
             cout << "The result is correct, steps are " << result[1] << endl;
-        } 
+        }
         else {
             cout << "The result is wrong" << endl;
         }
         delete [] result;
     }
+    return 0;
+}
+*/
+template <typename T>
+void testPuzzleNode(
+    PUZZLE_NODE &puzzleNode,
+    int backwardSteps,
+    T searchAlgorithm,
+    std::string AlgorithmName,
+    std::ofstream &outfile,
+    int testNumber)
+{
+    // 创建算法级别的进度条
+    indicators::ProgressBar bar{
+        indicators::option::BarWidth{50},
+        indicators::option::Start{"["},
+        indicators::option::Fill{"="},
+        indicators::option::Lead{">"},
+        indicators::option::Remainder{" "},
+        indicators::option::End{"]"},
+        indicators::option::PostfixText{AlgorithmName},
+        indicators::option::ForegroundColor{indicators::Color::green},
+        indicators::option::ShowPercentage{true},
+        indicators::option::MaxProgress{testNumber}};
+
+    // 存储每次测试的结果和用时
+    std::vector<std::pair<std::string, double>> results(testNumber);
+
+    // 只在主线程中更新进度条
+    int completed = 0;
+#pragma omp parallel for
+    for (int i = 0; i < testNumber; i++)
+    {
+        auto start_time = std::chrono::high_resolution_clock::now();
+
+        PUZZLE_NODE initialNode = initialPuzzleNode(backwardSteps);
+        std::vector<int> result = searchAlgorithm(initialNode, puzzleNode);
+
+        auto end_time = std::chrono::high_resolution_clock::now();
+        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time);
+        double time_us = duration.count();
+
+        std::string step_result = (result[0] == 1 ? std::to_string(result[1]) : "NaN");
+        results[i] = std::make_pair(step_result, time_us);
+
+        // 更新进度条（使用原子操作避免竞争）
+#pragma omp atomic
+        completed++;
+
+#pragma omp critical
+        {
+            if (completed % 25 == 0 || completed == testNumber)
+            {
+                bar.set_progress(completed);
+            }
+        }
+    }
+
+    // 串行输出到CSV
+    for (int i = 0; i < testNumber; i++)
+    {
+        outfile << AlgorithmName << ","
+                << i + 1 << ","
+                << results[i].first << ","
+                << results[i].second << "\n";
+    }
+}
+
+int main()
+{
+    PUZZLE_NODE objPuzzleNode;
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            objPuzzleNode.puzzle[i * 3 + j].puzzleId = i * 3 + j;
+            objPuzzleNode.puzzle[i * 3 + j].xPosition = i;
+            objPuzzleNode.puzzle[i * 3 + j].yPosition = j;
+        }
+    }
+    objPuzzleNode = updatePuzzleNodeActionList(objPuzzleNode);
+
+    std::ofstream outfile("output.csv");
+    if (outfile.is_open())
+    {
+        int backwardSteps = 20; // 固定回退步数为20
+        int totalTests = 1000;  // 测试次数
+        std::cout << "Starting tests with " << totalTests << " iterations for each algorithm..." << std::endl;
+
+        // 写入CSV表头
+        outfile << "Algorithm,TestID,Steps,Time_us\n";
+
+        testPuzzleNode(
+            objPuzzleNode,
+            backwardSteps,
+            binaryFirstSearch,
+            "Breadth-First Search",
+            outfile,
+            totalTests);
+        std::cout << "Completed Breadth-First Search tests." << std::endl;
+
+        testPuzzleNode(
+            objPuzzleNode,
+            backwardSteps,
+            depthFirstSearch,
+            "Depth-First Search",
+            outfile,
+            totalTests);
+        std::cout << "Completed Depth-First Search tests." << std::endl;
+
+        testPuzzleNode(
+            objPuzzleNode,
+            backwardSteps,
+            heuristicSearchInformedByIncorrectNum,
+            "Heuristic Search (Incorrect Num)",
+            outfile,
+            totalTests);
+        std::cout << "Completed Heuristic Search (Incorrect Num) tests." << std::endl;
+
+        testPuzzleNode(
+            objPuzzleNode,
+            backwardSteps,
+            heuristicSearchInformedByManhattonDis,
+            "Heuristic Search (Manhattan Distance)",
+            outfile,
+            totalTests);
+        std::cout << "Completed Heuristic Search (Manhattan Distance) tests." << std::endl;
+
+        outfile.close();
+        std::cout << "Results saved to output.csv" << std::endl;
+    }
+    else
+    {
+        std::cerr << "Unable to open file";
+    }
+
     return 0;
 }

@@ -1,0 +1,4001 @@
+Algorithm,Steps
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,0.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,14.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,16.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,14.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,14.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,14.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,16.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,16.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,0.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,0.0
+Breadth-First Search,4.0
+Breadth-First Search,14.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,14.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,0.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,0.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,14.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,0.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,0.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,0.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,14.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,14.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,0.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,14.0
+Breadth-First Search,12.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,16.0
+Breadth-First Search,8.0
+Breadth-First Search,0.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,14.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,14.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,0.0
+Breadth-First Search,12.0
+Breadth-First Search,14.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,6.0
+Breadth-First Search,14.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,0.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,12.0
+Breadth-First Search,14.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,14.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,0.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,0.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,0.0
+Breadth-First Search,2.0
+Breadth-First Search,14.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,0.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,0.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,0.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,14.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,14.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,14.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,0.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,0.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,12.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,16.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,12.0
+Breadth-First Search,12.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,12.0
+Breadth-First Search,14.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,2.0
+Breadth-First Search,4.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,14.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,14.0
+Breadth-First Search,4.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,12.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,2.0
+Breadth-First Search,8.0
+Breadth-First Search,8.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,8.0
+Breadth-First Search,10.0
+Breadth-First Search,6.0
+Breadth-First Search,6.0
+Breadth-First Search,4.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,10.0
+Breadth-First Search,4.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,2.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,0.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Depth-First Search,20.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),18.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),14.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),0.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),16.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),2.0
+Heuristic Search (Incorrect Num),12.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),10.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),6.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Incorrect Num),8.0
+Heuristic Search (Incorrect Num),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),18.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),18.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),16.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),14.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),12.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),6.0
+Heuristic Search (Manhattan Distance),8.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),2.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),0.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),4.0
+Heuristic Search (Manhattan Distance),10.0

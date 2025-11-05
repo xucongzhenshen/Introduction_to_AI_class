@@ -2,6 +2,8 @@
 #include <time.h>
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
+#include <iostream>
+#include <random>
 
 //找到 空格 0 所在的位置
 int* findZeroPosition(PUZZLE_NODE puzzleNode) {
@@ -104,8 +106,13 @@ PUZZLE_NODE moveToPuzzleNode(vector<int> action, PUZZLE_NODE puzzleNode) {
 }
 
 // 用于生成PuzzleNode中随机动作索引
-int getRandomNumber(int actionSize) {
-    return rand() % actionSize;
+// 每个线程有自己的随机数生成器
+thread_local std::mt19937 generator(std::random_device{}());
+
+int getRandomNumber(int actionSize)
+{
+    std::uniform_int_distribution<int> distribution(0, actionSize - 1);
+    return distribution(generator);
 }
 
 //给定回退步数，返回初始状态
