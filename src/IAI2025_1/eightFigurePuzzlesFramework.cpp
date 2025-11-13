@@ -95,87 +95,87 @@ std::vector<int> binaryFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzl
     return std::move(result);
 }
 
-// 深度有限搜索
 std::vector<int> depthFirstSearch(PUZZLE_NODE initialNode, PUZZLE_NODE objPuzzleNode)
 {
-    // result[0] 1:correct;0:wrong
-    // result[1] 步数 steps
     std::vector<int> result = {0, 0};
-    map<int, int> visited;
-    /*
-        请在该位置完成深度有限搜索，最大深度限度为25
-    */
-    /*
-    cout << "初始节点状态：" << endl;
-    for (int i = 0; i < 3; i++)
-    {
-        cout << " " << initialNode.puzzle[i * 3 + 0].puzzleId << "  " << initialNode.puzzle[i * 3 + 1].puzzleId << "  " << initialNode.puzzle[i * 3 + 2].puzzleId << endl;
-    }
-    cout << endl;
-    */
+    map<int, std::pair<int, int>> visited;
 
-    PUZZLE_NODE puzzleNode = initialNode;
+    // cout << "初始节点状态：" << endl;
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     cout << " " << initialNode.puzzle[i * 3 + 0].puzzleId << "  "
+    //          << initialNode.puzzle[i * 3 + 1].puzzleId << "  "
+    //          << initialNode.puzzle[i * 3 + 2].puzzleId << endl;
+    // }
+    // cout << endl;
+
     stack<PUZZLE_NODE> puzzleNodeStack;
-    puzzleNode.depth = 0;
-    puzzleNodeStack.push(puzzleNode);
+    initialNode.depth = 0;
+    puzzleNodeStack.push(initialNode);
+
     while (!puzzleNodeStack.empty())
     {
         PUZZLE_NODE currentPuzzleNode = puzzleNodeStack.top();
-        if (checkObject(currentPuzzleNode, objPuzzleNode) || currentPuzzleNode.depth >= MAX_DEPTH)
+        puzzleNodeStack.pop();
+
+        // 检查是否达到目标状态
+        if (checkObject(currentPuzzleNode, objPuzzleNode))
         {
-            /*
-            for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++)
-            {
-                outputAction(currentPuzzleNode.precedeActionList[i], i + 1);
-            }
-            cout << "找到正确结果:" << endl;
-            for (int i = 0; i < 3; i++)
-            {
-                cout << " " << currentPuzzleNode.puzzle[i * 3 + 0].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 1].puzzleId << "  " << currentPuzzleNode.puzzle[i * 3 + 2].puzzleId << endl;
-            }
-            */
+            // // 输出解决方案
+            // for (int i = 0; i < currentPuzzleNode.precedeActionList.size(); i++)
+            // {
+            //     outputAction(currentPuzzleNode.precedeActionList[i], i + 1);
+            // }
+            // cout << "找到正确结果:" << endl;
+            // for (int i = 0; i < 3; i++)
+            // {
+            //     cout << " " << currentPuzzleNode.puzzle[i * 3 + 0].puzzleId << "  "
+            //          << currentPuzzleNode.puzzle[i * 3 + 1].puzzleId << "  "
+            //          << currentPuzzleNode.puzzle[i * 3 + 2].puzzleId << endl;
+            // }
+
             result[0] = 1;
             result[1] = currentPuzzleNode.depth;
             return std::move(result);
         }
-        else
+
+        // 检查深度限制
+        if (currentPuzzleNode.depth >= MAX_DEPTH)
         {
-            visited[visitedNum(currentPuzzleNode)] = 1;
-            if (currentPuzzleNode.nextActionList.size() == 0)
+            continue; // 超过深度限制，跳过扩展
+        }
+
+        // 标记为已访问
+        visited[visitedNum(currentPuzzleNode)] = std::make_pair(1, currentPuzzleNode.depth);
+
+        // 更新动作列表（如果为空）
+        if (currentPuzzleNode.nextActionList.empty())
+        {
+            currentPuzzleNode = updatePuzzleNodeActionList(currentPuzzleNode);
+        }
+
+        // 扩展子节点
+        for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++)
+        {
+            PUZZLE_NODE nextPuzzleNode = moveToPuzzleNode(currentPuzzleNode.nextActionList[i], currentPuzzleNode);
+
+            // 检查是否已访问
+            if (visited[visitedNum(nextPuzzleNode)].first == 1 && currentPuzzleNode.depth + 1 >= visited[visitedNum(nextPuzzleNode)].second)
             {
-                currentPuzzleNode = updatePuzzleNodeActionList(currentPuzzleNode);
+                continue;
             }
-            puzzleNodeStack.pop();
-            for (int i = 0; i < currentPuzzleNode.nextActionList.size(); i++)
-            {
-                PUZZLE_NODE nextPuzzleNode = moveToPuzzleNode(currentPuzzleNode.nextActionList[i], currentPuzzleNode);
-                if (visited[visitedNum(nextPuzzleNode)] == 1)
-                {
-                    continue;
-                }
-                if (!currentPuzzleNode.precedeActionList.empty())
-                {
-                    for (int actionIndex = 0; actionIndex < currentPuzzleNode.precedeActionList.size(); actionIndex++)
-                    {
-                        nextPuzzleNode.precedeActionList.push_back(currentPuzzleNode.precedeActionList[actionIndex]);
-                    }
-                }
-                nextPuzzleNode.precedeActionList.push_back(currentPuzzleNode.nextActionList[i]);
-                nextPuzzleNode.depth = currentPuzzleNode.depth + 1;
-                puzzleNodeStack.push(nextPuzzleNode);
-            }
+
+            // 复制动作历史
+            nextPuzzleNode.precedeActionList = currentPuzzleNode.precedeActionList;
+            nextPuzzleNode.precedeActionList.push_back(currentPuzzleNode.nextActionList[i]);
+            nextPuzzleNode.depth = currentPuzzleNode.depth + 1;
+
+            puzzleNodeStack.push(nextPuzzleNode);
         }
     }
 
-    if (checkObject(initialNode, objPuzzleNode) && initialNode.depth < MAX_DEPTH)
-    {
-        result[0] = 1;
-    }
-    else
-    {
-        result[0] = 0;
-    }
-
+    // 没有找到解决方案
+    result[0] = 0;
     return std::move(result);
 }
 
@@ -479,7 +479,6 @@ int main() {
 
     int setup = 0;
     while (true) {
-        visited.clear();
 
         cout << "请选择搜索方式(-1:退出; 0:演示;1:广度优先搜索;2:深度优先搜索;3:启发式搜索(错误数);4:启发式搜索(曼哈顿距离)):" << endl;
         cin >> setup;
@@ -494,7 +493,7 @@ int main() {
 
         PUZZLE_NODE initialNode = initialPuzzleNode(backwardSteps);
 
-        int* result;
+        std::vector<int> result;
         if (setup == 1) {
             result = binaryFirstSearch(initialNode, objPuzzleNode);
         } else if (setup == 2) {
@@ -517,11 +516,11 @@ int main() {
         else {
             cout << "The result is wrong" << endl;
         }
-        delete [] result;
     }
     return 0;
 }
 */
+
 template <typename T>
 void testPuzzleNode(
     PUZZLE_NODE &puzzleNode,
@@ -576,7 +575,6 @@ void testPuzzleNode(
             }
         }
     }
-
     // 串行输出到CSV
     for (int i = 0; i < testNumber; i++)
     {
@@ -605,7 +603,7 @@ int main()
     if (outfile.is_open())
     {
         int backwardSteps = 20; // 固定回退步数为20
-        int totalTests = 1000;  // 测试次数
+        int totalTests = 100;  // 测试次数
         std::cout << "Starting tests with " << totalTests << " iterations for each algorithm..." << std::endl;
 
         // 写入CSV表头
