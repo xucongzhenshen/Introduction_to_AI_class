@@ -1,0 +1,5 @@
+Size,SuccessRate(%),AvgTime(ms),MaxTime(ms),AvgMemory(KB),MaxMemory(KB),TotalTests, TotalTime(ms)
+4,100.0,0.24,2,155.92,156,50,12
+8,100.0,0.60,4,157.36,160,50,30
+12,84.0,1.40,9,161.36,164,50,70
+16,88.0,8.40,174,164.00,164,50,420

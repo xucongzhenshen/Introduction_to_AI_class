@@ -2,9 +2,15 @@
 
 #include <iostream>
 #include <ctime>
+#include <chrono>
+#include <vector>
+#include <fstream>
+#include <tuple>
+#include <iomanip>
 #include "Queen.h"
 #include "Csp.h"
 #include "search.h"
+#include "MemoryMonitor.h"
 
 Csp initCsp(int size)
 {
@@ -18,7 +24,6 @@ Csp initCsp(int size)
 	return Csp(variables);
 }
 
-// backtrackExperimentºÍminConflictExperimentÖ»ÊÇÑùÀıÊµÑé£¬Í¬Ñ§¿ÉÒÔ¸ù¾İĞèÇó×Ô¼ºÊµÏÖÊµÑéº¯Êı¡£
 void backtrackExperiment(int maxPuzzleSize)
 {
 	std::cout << "Backtrack Search Experiment Begin." << std::endl;
@@ -26,11 +31,11 @@ void backtrackExperiment(int maxPuzzleSize)
 	{
 		std::cout << "Current Size: " << size << std::endl;
 		Csp csp = initCsp(size);
-		std::vector<Queen*> solution = search::backtrackingSearch(csp);
+		MemoryMonitor memoryMonitor;
+		std::vector<Queen*> solution = search::backtrackingSearch(csp, memoryMonitor);
 		search::printSolution(solution);
 	}
 }
-// ÓÉÓÚ¸ÃËã·¨´æÔÚËæ»úĞÔ£¬Å¼¶û´æÔÚÎŞ·¨ÔÚmaxStep·¶Î§ÄÚÕÒµ½½á¹ûµÄÇé¿öÊôÓÚÕı³£ÏÖÏó
 void minConflictExperiment(int puzzleSize, int iteration, int maxStep)
 {
 	std::cout << "MinConflict Search Experiment Begin." << std::endl;
@@ -40,31 +45,147 @@ void minConflictExperiment(int puzzleSize, int iteration, int maxStep)
 		Csp csp = initCsp(puzzleSize);
 		csp.randomAssign();
 
-		std::vector<Queen*> solution = search::minConflict(csp, maxStep);
+		MemoryMonitor memoryMonitor;
+		std::vector<Queen*> solution = search::minConflict(csp, maxStep, memoryMonitor);
 		search::printSolution(solution);
 	}
 }
-// ËÑË÷º¯Êı½á¹û×îºóÍ¨¹ı¸Ãº¯Êı²âÊÔ
-void searchTest(search::searchFunc searchFunc)
+
+void searchTest(search::searchFunc searchFunc, std::string prefix = "")
 {
-	std::cout << "Search Test Begin." << std::endl;
-	int count = 0;
-	for (int i = 0; i < 100; i++)
+	std::cout << "\n=== Search Test Begin ===" << std::endl;
+
+	if (prefix.empty())
 	{
-		Csp csp = initCsp(8);
-		std::vector<Queen*> solution = searchFunc(csp);
-		if (search::failed(solution))
-		{
-			std::cout << "Iteration " << i << ": failed!" << std::endl;
-		}
-		else
-		{
-			std::cout << "Iteration " << i << ": " << search::isSolution(csp, solution) << std::endl;
-			search::printSolution(solution);
-			count++;
-		}
+		prefix = "search";
 	}
-	std::cout << "Total Success: " << count << "/100" << std::endl;
+
+	// åˆ›å»ºè¾“å‡ºæ–‡ä»¶
+	std::string outputFile = prefix + "_detailed_results.csv";
+	std::ofstream ofile(outputFile);
+	if (!ofile.is_open())
+	{
+		std::cerr << "Error: Cannot open output file: " << outputFile << std::endl;
+		return;
+	}
+
+	// è¯¦ç»†çš„CSVæ–‡ä»¶å¤´
+	ofile << "Size,TestID,Success,Time(ms),Memory(KB),SolutionFound" << std::endl;
+
+	// ç»Ÿè®¡ä¿¡æ¯æ–‡ä»¶
+	std::string summaryFile = prefix + "_summary.csv";
+	std::ofstream summaryStream(summaryFile);
+	if (!summaryStream.is_open())
+	{
+		std::cerr << "Error: Cannot open summary file: " << summaryFile << std::endl;
+		ofile.close();
+		return;
+	}
+
+	summaryStream << "Size,SuccessRate(%),AvgTime(ms),MaxTime(ms),AvgMemory(KB),MaxMemory(KB),TotalTests, TotalTime(ms)" << std::endl;
+
+	std::vector<long long> total_durations;
+	const int TESTS_PER_SIZE = 50;
+
+	MemoryMonitor memoryMonitor;
+
+	for (int size = 4; size <= 16; size += 4)
+	{
+		std::cout << "\n--- Testing Size: " << size << " ---" << std::endl;
+
+		int successCount = 0;
+		long long totalTime = 0;
+		long long maxTime = 0;
+		long long totalMemory = 0;
+		long long maxMemory = 0;
+
+		std::vector<std::tuple<bool, long long, long long>> results;
+
+		for (int testID = 0; testID < TESTS_PER_SIZE; testID++)
+		{
+			Csp csp = initCsp(size);
+
+			// å†…å­˜ç›‘æ§é‡ç½®
+			memoryMonitor.reset();
+
+			// è®¡æ—¶å¼€å§‹
+			auto start = std::chrono::steady_clock::now();
+
+			// æ‰§è¡Œæœç´¢
+			std::vector<Queen *> solution = searchFunc(csp, memoryMonitor);
+
+			// è®¡æ—¶ç»“æŸ
+			auto end = std::chrono::steady_clock::now();
+
+			// è®¡ç®—æ—¶é—´å’Œå†…å­˜ä½¿ç”¨
+			auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+			long long memory_used = memoryMonitor.getPeakUsage();
+			long long memory_kb = memory_used; // è½¬æ¢ä¸ºKB
+
+			bool success = !search::failed(solution);
+
+			// æ›´æ–°ç»Ÿè®¡
+			if (success)
+				successCount++;
+			totalTime += duration;
+			totalMemory += memory_kb;
+			maxTime = std::max(maxTime, duration);
+			maxMemory = std::max(maxMemory, memory_kb);
+
+			results.push_back(std::make_tuple(success, duration, memory_kb));
+
+			// è¾“å‡ºå•ä¸ªæµ‹è¯•ç»“æœ
+			std::string status = success ? "SUCCESS" : "FAILED";
+			std::cout << "  Test " << std::setw(2) << testID + 1 << ": " << status
+					  << " - Time: " << std::setw(5) << duration << " ms"
+					  << ", Memory: " << std::setw(6) << memory_kb << " KB"
+					  << std::endl;
+
+			// å†™å…¥è¯¦ç»†ç»“æœ
+			ofile << size << ","
+				  << testID + 1 << ","
+				  << (success ? "Yes" : "No") << ","
+				  << duration << ","
+				  << memory_kb << ","
+				  << (success ? "Yes" : "No") << std::endl;
+		}
+
+		// è®¡ç®—å¹³å‡å€¼
+		double avgTime = static_cast<double>(totalTime) / TESTS_PER_SIZE;
+		double avgMemory = static_cast<double>(totalMemory) / TESTS_PER_SIZE;
+		double successRate = (static_cast<double>(successCount) / TESTS_PER_SIZE) * 100.0;
+
+		// è¾“å‡ºæœ¬ç»„ç»Ÿè®¡ä¿¡æ¯
+		std::cout << "âœ“ Size " << size << " Summary:" << std::endl;
+		std::cout << "  Success Rate: " << successCount << "/" << TESTS_PER_SIZE
+				  << " (" << std::fixed << std::setprecision(1) << successRate << "%)" << std::endl;
+		std::cout << "  Average Time: " << std::fixed << std::setprecision(2) << avgTime << " ms" << std::endl;
+		std::cout << "  Maximum Time: " << maxTime << " ms" << std::endl;
+		std::cout << "  Average Memory: " << std::fixed << std::setprecision(2) << avgMemory << " KB" << std::endl;
+		std::cout << "  Maximum Memory: " << maxMemory << " KB" << std::endl;
+		std::cout << "  Total Time for Size " << size << ": " << totalTime << " ms" << std::endl;
+
+		// å†™å…¥ç»Ÿè®¡æ–‡ä»¶
+		summaryStream << size << ","
+					  << std::fixed << std::setprecision(1) << successRate << ","
+					  << std::fixed << std::setprecision(2) << avgTime << ","
+					  << maxTime << ","
+					  << std::fixed << std::setprecision(2) << avgMemory << ","
+					  << maxMemory << ","
+					  << TESTS_PER_SIZE << ","
+					  << totalTime << std::endl;
+
+		total_durations.push_back(totalTime);
+	}
+
+	// å…³é—­æ–‡ä»¶
+	ofile.close();
+	summaryStream.close();
+
+	std::cout << "\n=== Search Test Completed ===" << std::endl;
+	std::cout << "Results saved to:" << std::endl;
+	std::cout << "  - Detailed results: " << outputFile << std::endl;
+	std::cout << "  - Summary statistics: " << summaryFile << std::endl;
 }
 
 int main(int argc, const char* argv[])
@@ -73,8 +194,8 @@ int main(int argc, const char* argv[])
 
 	//backtrackExperiment(16);
 	//minConflictExperiment(8, 100, 200);
-	searchTest(search::backtrackingSearch);
-	//searchTest(search::minConflictWrapper);
+	//searchTest(search::backtrackingSearch, "data/backtrack");
+	searchTest(search::minConflictWrapper, "data/minconflict");
 
 	system("pause");
 	return 0;

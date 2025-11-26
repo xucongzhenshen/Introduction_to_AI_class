@@ -77,6 +77,8 @@ void Csp::randomAssign()
 {
 	for (int i = 0; i < variables.size(); i++) {
 		auto q = variables[i];
-		q->position = q->domain[(2 * i + i / 4) % variables.size()];
+		q->position = q->domain[(2*i + 2*i/variables.size()) % q->domain.size()];
+		// int randIndex = rand() % q->domain.size();
+		// q->position = q->domain[randIndex];
 	}
 }

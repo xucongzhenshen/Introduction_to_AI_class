@@ -2,7 +2,7 @@
 
 #include "Csp.h"
 #include "Queen.h"
-// ac-3算法，用于推理，缩小variables的domian。
+
 namespace inference
 {
 	bool canSatisfy(Csp& csp, Position& p1, Queen& q2);

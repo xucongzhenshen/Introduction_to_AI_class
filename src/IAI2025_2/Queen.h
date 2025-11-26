@@ -2,10 +2,10 @@
 
 #include <vector>
 #include <iostream>
-// ÓÃÓÚÃèÊöQueenÔÚÆåÅÌÉÏµÄÎ»ÖÃ
+
 struct Position
 {
-	static Position getUnassigned();	// Èç¹ûvariableÊ¹ÓÃ¸Ã±äÁ¿×÷Îª¸³Öµ£¬ÄÇÃ´±íÊ¾¸ÃvariableÎ´¸³Öµ
+	static Position getUnassigned();	
 	int row;
 	int col;
 	bool operator==(const Position& other);
@@ -14,19 +14,19 @@ struct Position
 	Position(int row, int col) : row(row), col(col) {}
 	Position(const Position& other) : row(other.row), col(other.col) {}
 };
-// ÖØÔØPositionµÄ<<²Ù×÷·û
+// è¾“å‡ºPositionçš„<<è¿ç®—ç¬¦
 extern std::ostream& operator<<(std::ostream& os, Position position);
 
-// QueenÏàµ±ÓÚCSPÖĞµÄvariable£¬domainºÍvariableµÄ¸³Öµ»á±£´æÔÚvariableÖĞ
-// ¼ÙÉè£ºÃ¿Ò»¸öQueenÖ»ÄÜÔÚÊúÖ±·½ÏòÉÏÒÆ¶¯£¬Ò²¾ÍÊÇËµµÚÒ»¸öqueenÖ»ÄÜÔÚµÚÒ»ÁĞÒÆ¶¯
+// Queenæ˜¯CSPçš„variableï¼Œdomainæ˜¯variableçš„å–å€¼èŒƒå›´ï¼Œvariableçš„å€¼
+// è¯´æ˜ï¼šæ¯ä¸ªQueenåªèƒ½å¤Ÿåœ¨ä¸€åˆ—ä¸Šç§»åŠ¨ï¼Œä¹Ÿå°±æ˜¯è¯´ä¸€ä¸ªqueenåªä¼šæœ‰ä¸€ä¸ªå–å€¼
 class Queen
 {
 public:
-	int id; // QueenµÄid´Ó1¿ªÊ¼
-	Queen(int id, int size);	// idÊÇÎª1´ú±íqueenÔÚÆåÅÌµÄµÚÒ»ÁĞÖĞÑ¡È¡Î»ÖÃ£¬size´ú±íÆåÅÌµÄ´óĞ¡£¬Èç¹ûÊÇ8*8µÄÆåÅÌ£¬sizeÓ¦Îª8
-	std::vector<Position> domain;	// QueenµÄdomianÓÉidºÍpuzzleµÄsize¾ö¶¨£¬Queen(1, 8)µÄdomianÓ¦¸ÃÎª{[0-7], 0}
-	Position position;	// QueenµÄÎ»ÖÃ£¬Ïàµ±ÓÚCSPÖĞvariableµÄ¸³Öµ
-	// ¸ø¸Ãvariable¸³Öµ£¬´Ëº¯Êı»á¸ü¸Äº¯ÊıµÄdomianºÍposition±äÁ¿
-	// ÀıÈç£ºassign({0, 0})»áÊ¹position±äÁ¿±äÎª{0, 0}£¬domain±äÁ¿±äÎª[{0, 0}]
+	int id; // Queençš„idä»1å¼€å§‹
+	Queen(int id, int size);	// idä¸º1çš„queenè¡¨ç¤ºç¬¬ä¸€ä¸ªçš‡åï¼Œsizeè¡¨ç¤ºæ£‹ç›˜çš„å¤§å°ï¼Œæ¯”å¦‚8*8çš„æ£‹ç›˜ï¼Œsizeåº”ä¸º8
+	std::vector<Position> domain;	// Queençš„domianç”±idå’Œpuzzleçš„sizeå†³å®šï¼Œæ¯”å¦‚Queen(1, 8)çš„domianåº”ä¸º{[0-7], 0}
+	Position position;	// Queençš„ä½ç½®ï¼Œå³CSPçš„variableçš„å–å€¼
+	// ä¿®æ”¹variableçš„å€¼æ—¶ï¼ŒåŒæ—¶ä¿®æ”¹domainå’Œposition
+	// ä¾‹å¦‚ï¼šassign({0, 0})ä½¿positionå˜ä¸º{0, 0}ï¼Œdomainå˜ä¸º[{0, 0}]
 	void assign(Position value);	
 };

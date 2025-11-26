@@ -5,28 +5,28 @@
 #include "Queen.h"
 #include "relation.h"
 
-// ¶ÔÓ¦ac-3ºÍbacktrackingSearchËã·¨Î±´úÂëÖĞµÄcsp
+
 class Csp {
 public:
 	Csp();
-	// ÓÃ¸ø¶¨µÄvariables³õÊ¼»¯CSP£¬³õÊ¼»¯¹ı³ÌÖĞ¶¨Òåvariables¡¢arcs¡¢constrains¡£
+	// æ ¹æ®variablesåˆå§‹åŒ–CSPï¼Œåˆå§‹åŒ–arcså’Œconstrains
 	Csp(std::vector<Queen*> variables);
 	~Csp();
 
 	std::vector<Queen*> variables;
-	// variablesÈç¹ûÓĞ¹ØÏµ£¬ÄÇÃ´ËûÃÇ»á±»¶¨ÒåÎªÒ»¸öpair
+	// variablesä¹‹é—´çš„å¼§é›†åˆï¼Œå¼§è¢«è¡¨ç¤ºä¸ºä¸€å¯¹pair
 	std::queue<std::pair<Queen*, Queen*>> arcs;
-	// ¶¨ÒåÔ¼Êøº¯Êı
+	// çº¦æŸå…³ç³»
 	relation::relationFunc constraints;
 
-	// »ñÈ¡current Queen³ıÁËexpection QueenÖ®ÍâµÄÏà¹ØQueen£¬ÔÚac-3Ëã·¨ÖĞÊ¹ÓÃ
+	// è·å–current Queené™¤expection Queenä¹‹å¤–çš„é‚»å±…Queenï¼Œç”¨äºac-3ç®—æ³•çš„ä½¿ç”¨
 	std::vector<Queen*> getNeighboursExcept(Queen& current, Queen& exception);
-	// ¼ì²évalueÊÇ·ñ»áÓëÏÖÔÚµÄassignment³åÍ»
+	// åˆ¤æ–­valueæ˜¯å¦ä¸assignmentå†²çª
 	bool consistent(Position& value, std::vector<Queen*>& assignment);
-	// ¼ÇÂ¼variablesµÄ×´Ì¬£¬ÔÚ×öinferenceÊ±variablesµÄdomianºÍposition»á±»¸ü¸Ä£¬ÓÃÔÚbacktrackingSearchËã·¨ÖĞ£¬¼ÇÂ¼µİ¹éÇ°µÄ×îºóÒ»¸ö×´Ì¬
+	// è®°å½•variablesçŠ¶æ€ï¼Œå½“inferenceæ—¶variablesçš„domianå’Œpositionè¢«ä¿®æ”¹ï¼ŒbacktrackingSearchç®—æ³•ä¸­ï¼Œè®°å½•å½“å‰çŠ¶æ€
 	void record(std::vector<Position>& lastPositions, std::vector<std::vector<Position>>& lastDomains);
-	// »Ö¸´variablesµÄ×´Ì¬£¬ÓÃÓÚµİ¹éÊ§°Üºó»ØËİµ½Ê§°ÜÖ®Ç°µÄ×î½üµÄ×´Ì¬
+	// æ¢å¤variablesçŠ¶æ€åˆ°é€’å½’å¤±è´¥æˆ–è€…å¤±è´¥ä¹‹å‰çš„çŠ¶æ€
 	void recover(std::vector<Position>& lastPositions, std::vector<std::vector<Position>>& lastDomains);
-	// ¸øËùÓĞvariablesËæ»ú¸³Öµ
+	// éšæœºç»™variablesèµ‹å€¼
 	void randomAssign();
 };

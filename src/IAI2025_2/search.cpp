@@ -1,11 +1,11 @@
 #include "search.h"
 #include "inference.h"
+#include "MemoryMonitor.h"
 #include <iostream>
 #include <algorithm>
 #include<random>
 
 
-// 目前采用了最简单的选择方式：按照variables的顺序选择。
 Queen* search::selectUnassignedVariable(Csp& csp)
 {
 	for (Queen* q : csp.variables)
@@ -18,8 +18,6 @@ Queen* search::selectUnassignedVariable(Csp& csp)
 
 	return NULL;
 }
-
-// 最简单的顺序：按照variables本身domain的顺序。
 std::vector<Position> search::orderDomainValues(Queen* var, std::vector<Queen*>& assignment, Csp& csp)
 {
 	return var->domain;
@@ -34,22 +32,21 @@ std::vector<Queen*> search::makeInference(Csp& csp, Queen* var, Position value)
 {
 	std::vector<Queen*> result;
 
-	// 记录状态以便在推理失败时恢复
+	
 	std::vector<Position> lastPositions;
 	std::vector<std::vector<Position>> lastDomains;
 	csp.record(lastPositions, lastDomains);
 
-	// 运行AC-3算法
 	if (!inference::ac3(csp)) {
 		csp.recover(lastPositions, lastDomains);
-		return std::vector<Queen*>({ NULL }); // 推理失败
+		return std::vector<Queen*>({ NULL }); 
 	}
 
-	// 收集域被缩小到1的变量
+	
 	for (Queen* q : csp.variables) {
 		if (q->domain.empty()) {
 			csp.recover(lastPositions, lastDomains);
-			return std::vector<Queen*>({ NULL }); // 有空域，失败
+			return std::vector<Queen*>({ NULL }); 
 		}
 		if (q->domain.size() == 1 && q->position == Position::getUnassigned()) {
 			q->assign(q->domain[0]);
@@ -94,12 +91,12 @@ void search::refresh(std::vector<Queen*>& assignment)
 	}
 }
 
-std::vector<Queen*> search::backtrackingSearch(Csp& csp)
+std::vector<Queen*> search::backtrackingSearch(Csp& csp, MemoryMonitor& memoryMonitor)
 {
-	return backtrack(std::vector<Queen*>(), csp);
+	return backtrack(std::vector<Queen*>(), csp, memoryMonitor);
 }
 
-std::vector<Queen*> search::backtrack(std::vector<Queen*> assignment, Csp& csp)
+std::vector<Queen*> search::backtrack(std::vector<Queen*> assignment, Csp& csp, MemoryMonitor& memoryMonitor)
 {
 	/*
 	 * TODO
@@ -122,63 +119,54 @@ std::vector<Queen*> search::backtrack(std::vector<Queen*> assignment, Csp& csp)
 			remove {var = value} and inferences from assignment # use refresh(assignment)
 		return failure
 	 */
-	 // 如果赋值完成，返回解
+	memoryMonitor.update();
+	// Check if assignment is complete
 	if (assignment.size() == csp.variables.size()) {
+		std::cout << "Assignment complete." << std::endl;
 		return assignment;
 	}
 
-	// 选择未赋值变量
+	// Choose an unassigned variable
 	Queen* var = selectUnassignedVariable(csp);
 	if (var == NULL) {
-		return std::vector<Queen*>({ NULL }); // 失败
+		return std::vector<Queen*>({ NULL }); // Failure
 	}
 
-	// 按顺序尝试每个可能的值
 	for (Position value : orderDomainValues(var, assignment, csp)) {
-		// 记录CSP状态
+		memoryMonitor.update();
 		std::vector<Position> lastPositions;
 		std::vector<std::vector<Position>> lastDomains;
 		csp.record(lastPositions, lastDomains);
 
-		// 检查值是否与当前赋值一致
 		if (csp.consistent(value, assignment)) {
-			// 赋值
 			var->assign(value);
 			assignment.push_back(var);
 
-			// 进行推理
 			std::vector<Queen*> inferences = makeInference(csp, var, value);
 
-			// 如果推理成功
 			if (!failed(inferences)) {
-				// 添加推理结果到赋值
 				for (Queen* q : inferences) {
 					assignment.push_back(q);
 				}
 
-				// 递归搜索
-				std::vector<Queen*> result = backtrack(assignment, csp);
+				std::vector<Queen*> result = backtrack(assignment, csp, memoryMonitor);
 				if (!failed(result)) {
-					return result; // 找到解
+					return result; 
 				}
 			}
 
-			// 回溯：恢复CSP状态
 			csp.recover(lastPositions, lastDomains);
 		}
 		else {
-			// 恢复CSP状态（如果没进入赋值分支）
 			csp.recover(lastPositions, lastDomains);
 		}
-
-		// 移除当前赋值和推理结果
 		refresh(assignment);
 	}
 	
 	return std::vector<Queen*>({NULL});
 }
 
-std::vector<Queen*> search::minConflict(Csp& csp, int maxSteps)
+std::vector<Queen*> search::minConflict(Csp& csp, int maxSteps, MemoryMonitor& memoryMonitor)
 {
 	/*
 	 * TODO
@@ -199,23 +187,19 @@ std::vector<Queen*> search::minConflict(Csp& csp, int maxSteps)
 	int cnt = 0;
 	Queen* prev = nullptr;
 	Position prev_pos(-1, -1);
-	 // 当前赋值已经在wrapper中随机初始化
 	for (int i = 0; i < maxSteps; i++) {
-		
-		// 检查当前是否为解
+		memoryMonitor.update();
 		std::vector<Queen*> current = csp.variables;
 		if (isSolution(csp, current)) {
 			std::cout << "Solution found in " << i << " steps" << std::endl;
 			return current;
 		}
 
-		// 随机选择有冲突的变量
 		Queen* var = chooseConflictVariable(csp);
 		if (var == NULL) {
-			continue; // 没有冲突变量，继续
+			continue;
 		}
 		if (var == prev)var = csp.variables[rand() % csp.variables.size()];
-		// 选择使冲突最小的值
 		Position newValue = getMinConflictValue(csp, var);
 		while(newValue == var->position){
 			newValue = Position(rand() % csp.variables.size(), var->position.col);
@@ -233,36 +217,22 @@ std::vector<Queen*> search::minConflict(Csp& csp, int maxSteps)
 	return std::vector<Queen*>({NULL});
 }
 
-std::vector<Queen*> search::minConflictWrapper(Csp& csp)
+std::vector<Queen*> search::minConflictWrapper(Csp& csp, MemoryMonitor& memoryMonitor)
 {
 	csp.randomAssign();
-	return robustMinConflict(csp, 200);
+	return robustMinConflict(csp, 200, memoryMonitor);
 }
 
 int search::getConflicts(Csp& csp, Position& position)
 {
-	/*
-	* TODO
-	* 得到一个position在当前棋盘上的冲突数量
-	* 注意：与position在同一列的queen的冲突不应该计算
-	* 样例：
-	*	0 1 0 0
-		1 0 0 0
-		0 0 1 0
-		0 0 0 1
-	* Position{0, 0}的冲突数应该为3，因为它与{0, 1},{2, 2},{3, 3}冲突
-	* Position{1, 0}的冲突数量应该为1，因为它与{0, 1}冲突
-	*/
 	int conflictCount = 0;
 
 	for (Queen* q : csp.variables) {
-		// 跳过未赋值的皇后和同一列的皇后（根据题目要求）
 		if (q->position == Position::getUnassigned() ||
 			q->position.col == position.col) {
 			continue;
 		}
 
-		// 检查是否冲突（同一行或对角线）
 		if (relation::conflict(position, q->position)) {
 			conflictCount++;
 		}
@@ -273,34 +243,20 @@ int search::getConflicts(Csp& csp, Position& position)
 
 Queen* search::chooseConflictVariable(Csp& csp)
 {
-	/*
-	* TODO
-	* 返回一个目前赋值的冲突数大于0的variable
-	* 注意：冲突数大于0的variable可能有多个，需要随机选择
-	* 样例：
-	*	0 1 0 0
-		1 0 0 0
-		0 0 1 0
-		0 0 0 1
-	* Queen1-4的冲突数都大于0，随机选择一个作为该函数的返回结果
-	*/
 	float lambda = 0.7f;
 
 	std::vector<std::pair<Queen*, int>> conflictedVariables;
 
-	// 收集所有有冲突的变量
 	for (Queen* q : csp.variables) {
 		if (getConflicts(csp, q->position) > 0) {
 			conflictedVariables.push_back(std::make_pair(q, getConflicts(csp, q->position)));
 		}
 	}
-	// 按冲突数排序，冲突数多的在前面
 	std::sort(conflictedVariables.begin(), conflictedVariables.end(),
 		[](const std::pair<Queen*, int>& a, const std::pair<Queen*, int>& b) {
 			return a.second > b.second;
 		});
 
-	// 如果没有冲突变量，返回NULL
 	if (conflictedVariables.empty()) {
 		return NULL;
 	}
@@ -322,19 +278,6 @@ Queen* search::chooseConflictVariable(Csp& csp)
 
 Position search::getMinConflictValue(Csp& csp, Queen* var)
 {
-	/*
-	* TODO
-	* 返回var的domian中，可以使冲突数最小的值
-	* 注意：使冲突数最小的值可能有多个，需要随机选择，如果不随机选择问题可能会陷入局部稳定点并且该稳定点不是解
-	* 样例：
-	*	1 1 0 0
-		0 0 0 0
-		0 0 1 0
-		0 0 0 1
-	* Queen1所在的位置的冲突数为3，它的domain为{[0-3], 0}。{1, 0},{2, 0},{3, 0}的冲突数都为1。
-	* 需要从中随机选取一个作为返回值。
-	*/
-	// 收集冲突信息
 	std::vector<std::pair<Position, int>> conflictInfo;
 
 	for (Position candidate : var->domain) {
@@ -342,7 +285,6 @@ Position search::getMinConflictValue(Csp& csp, Queen* var)
 		conflictInfo.push_back({ candidate, conflicts });
 	}
 
-	// 找到最小冲突数
 	int minConflicts = INT_MAX;
 	for (const auto& info : conflictInfo) {
 		if (info.second < minConflicts) {
@@ -350,7 +292,6 @@ Position search::getMinConflictValue(Csp& csp, Queen* var)
 		}
 	}
 
-	// 收集所有最小冲突的位置
 	std::vector<Position> bestPositions;
 	for (const auto& info : conflictInfo) {
 		if (info.second == minConflicts) {
@@ -358,17 +299,14 @@ Position search::getMinConflictValue(Csp& csp, Queen* var)
 		}
 	}
 
-	// 如果没有找到（理论上不应该发生），返回当前位置
 	if (bestPositions.empty()) {
 		return var->position;
 	}
 
-	// 如果只有一个最佳选择，直接返回
 	if (bestPositions.size() == 1) {
 		return bestPositions[0];
 	}
 
-	// 如果有多个最佳选择，使用更智能的选择策略
 	return selectBestFromMultiple(csp, var, bestPositions, minConflicts);
 }
 
@@ -376,7 +314,6 @@ Position search::selectBestFromMultiple(Csp& csp, Queen* var,
 	std::vector<Position>& candidates,
 	int minConflicts)
 {
-	// 策略1: 优先选择能减少最多"潜在冲突"的位置
 	std::vector<std::pair<Position, int>> candidateScores;
 
 	for (Position candidate : candidates) {
@@ -384,7 +321,7 @@ Position search::selectBestFromMultiple(Csp& csp, Queen* var,
 		candidateScores.push_back({ candidate, score });
 	}
 
-	// 找到最高分
+	// Step 2: Find the highest score
 	int maxScore = INT_MIN;
 	for (const auto& pair : candidateScores) {
 		if (pair.second > maxScore) {
@@ -392,7 +329,7 @@ Position search::selectBestFromMultiple(Csp& csp, Queen* var,
 		}
 	}
 
-	// 收集所有最高分的候选
+	// Step 3: Find the highest score positions
 	std::vector<Position> bestCandidates;
 	for (const auto& pair : candidateScores) {
 		if (pair.second == maxScore) {
@@ -400,7 +337,7 @@ Position search::selectBestFromMultiple(Csp& csp, Queen* var,
 		}
 	}
 
-	// 在最高分候选中随机选择
+	// Step 4: From the highest score positions, randomly select one
 	int randomIndex = rand() % bestCandidates.size();
 	return bestCandidates[randomIndex];
 }
@@ -409,40 +346,39 @@ int search::evaluatePositionQuality(Csp& csp, Queen* var, Position candidate)
 {
 	int score = 0;
 
-	// 计算移动到这个位置后，对其他皇后的影响
+	// Step 1: Evaluate the quality of the candidate position
 
-	// 临时保存当前状态
+	// Save the original state
 	Position originalPosition = var->position;
 
-	// 模拟移动
+	// Assign the candidate value
 	var->position = candidate;
 
-	// 评估1: 计算这次移动能解决多少现有冲突
+	// Step 1: Calculate the number of conflicts for the original and candidate positions
 	int originalConflicts = getConflicts(csp, originalPosition);
 	int newConflicts = getConflicts(csp, candidate);
 	int conflictReduction = originalConflicts - newConflicts;
-	score += conflictReduction * 10; // 冲突减少的权重
-
-	// 评估2: 检查这个位置是否会让其他皇后有更多选择
+	score += conflictReduction * 10; // Conflict reduction weight
+	// Step 2: Evaluate the impact on other variables' conflicts
 	for (Queen* other : csp.variables) {
 		if (other == var || other->position == Position::getUnassigned()) {
 			continue;
 		}
 
-		// 检查其他皇后在这个新布局下的冲突数变化
+		// Step 2: Evaluate the impact on other variables' conflicts
 		int otherOriginalConflicts = getConflicts(csp, other->position);
 
-		// 简单评估：如果其他皇后的冲突减少，这个位置更好
-		// 注意：这里我们只做粗略估计，不实际移动其他皇后
+		// Step 2: Evaluate the impact on other variables' conflicts
+		// Note: Step 2 only considers variables that currently have conflicts
 		if (otherOriginalConflicts > 0) {
-			// 检查这个新位置是否与高冲突皇后在同一行/对角线
+			// Step 2: Evaluate the impact on other variables' conflicts
 			if (!relation::conflict(candidate, other->position)) {
-				score += 2; // 不与其他高冲突皇后冲突，加分
+				score += 2; // Step 2: Evaluate the impact on other variables' conflicts
 			}
 		}
 	}
 
-	// 恢复原始位置
+	// Restore the original position
 	var->position = originalPosition;
 
 	return score;
@@ -516,14 +452,16 @@ void search::printSolution(std::vector<Queen*>& solution)
 	}
 }
 
-std::vector<Queen*> search::robustMinConflict(Csp& csp, int maxSteps)
+std::vector<Queen*> search::robustMinConflict(Csp& csp, int maxSteps, MemoryMonitor& memoryMonitor)
 {
-	double temperature = 25.0; // 初始温度
+	double temperature = 25.0; 
 	const double coolingRate = 0.97;
 
 	int count = 0;
 	Queen* lastVar = NULL;
 	for (int step = 0; step < maxSteps; step++) {
+		memoryMonitor.update();
+
 		if (isSolution(csp, csp.variables)) {
 			std::cout << "Solution found in " << step << " steps" << std::endl;
 			return csp.variables;
@@ -532,7 +470,7 @@ std::vector<Queen*> search::robustMinConflict(Csp& csp, int maxSteps)
 
 		Queen* var = chooseConflictVariable(csp);
 		if (var == NULL || count >=2) {
-			// 如果没有冲突变量但还不是解，或5次是同一个皇后，随机扰动一个皇后
+			// If the chosen variable is NULL or the same variable has been chosen 2 times in a row, randomly select a variable
 			int randomIndex = rand() % csp.variables.size();
 			var = csp.variables[randomIndex];
 		}
@@ -544,17 +482,17 @@ std::vector<Queen*> search::robustMinConflict(Csp& csp, int maxSteps)
 			lastVar = var;
 		}
 
-		// 使用模拟退火策略选择新位置
+		// Choose a new position using simulated annealing
 		Position newValue = getMinConflictValueWithSimulatedAnnealing(csp, var, temperature);
 		if (newValue == var->position) {
 			newValue = var->domain[rand() % var->domain.size()];
 		}
 		var->position = newValue;
 
-		// 降温
+		// Cooling
 		temperature *= coolingRate;
 
-		// 输出进度
+		// Print current state
 		if (step % 20 == 0) {
 			std::cout << "Step " << step << ", temperature: " << temperature
 				<< ", conflicts: " << calculateTotalConflicts(csp) << std::endl;
@@ -574,13 +512,13 @@ Position search::getMinConflictValueWithSimulatedAnnealing(Csp& csp, Queen* var,
 		candidates.push_back({ pos, conflicts });
 	}
 
-	// 按冲突数排序
+	// Step 3: Sort candidate positions by their conflict values
 	std::sort(candidates.begin(), candidates.end(),
 		[](const auto& a, const auto& b) { return a.second < b.second; });
 
 	int bestConflict = candidates[0].second;
 
-	// 如果最佳选择比当前位置好，直接选择
+	// Step 4: If there is a position with fewer conflicts, choose one of the positions with the least conflicts
 	if (bestConflict < currentConflicts) {
 		std::vector<Position> bestCandidates;
 		for (const auto& pair : candidates) {
@@ -592,10 +530,10 @@ Position search::getMinConflictValueWithSimulatedAnnealing(Csp& csp, Queen* var,
 		return bestCandidates[randomIndex];
 	}
 
-	// 模拟退火：以一定概率接受劣质移动
+	// Step 5: Calculate the acceptance probability for simulated annealing
 	double acceptProbability = exp(-(bestConflict - currentConflicts) / temperature);
 	if ((double)rand() / RAND_MAX < acceptProbability) {
-		// 接受劣质移动
+		// Accept worse solution
 		std::vector<Position> bestCandidates;
 		for (const auto& pair : candidates) {
 			if (pair.second == bestConflict) {
@@ -606,11 +544,11 @@ Position search::getMinConflictValueWithSimulatedAnnealing(Csp& csp, Queen* var,
 		return bestCandidates[randomIndex];
 	}
 	else {
-		// 拒绝移动，保持当前位置（但这样会陷入停滞）
-		// 所以要强制一些移动
+		// Reject worse solution
+		// Need to explore some intermediate positions
 
 		if(!candidates.empty()){
-			// 选择冲突数不是最差的几个位置之一
+			// Choose a position with a medium conflict value
 			int midIndex = candidates.size() / 3 + 1;
 			int startIndex = rand() % midIndex;
 			int selectedIndex = startIndex + (rand() % (candidates.size() - startIndex));
