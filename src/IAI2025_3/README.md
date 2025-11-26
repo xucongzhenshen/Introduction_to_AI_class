@@ -102,8 +102,7 @@ $$
 - 结论
 
 ## 使用指南
-powershell
-```
+```powershell
 cmake -B build -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=$BuildType
 cmake --build build --config $BuildType --verbose
 ```

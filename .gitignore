@@ -35,6 +35,7 @@ suffix.md
 build.ps1
 build.bat
 scripts/
+run*
 cmake/
 mingw-toolchain.cmake
 

@@ -6,8 +6,10 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
+    std::cerr << ">>> IAI2025_3 starts, argc=" << argc << std::endl;
+    
     Dataset trainset("./dataset/train.csv");
     // Dataset testset("./dataset/test.csv");
     DecisionTree dt(trainset);
